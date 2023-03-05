@@ -1,8 +1,8 @@
 import {
   defineConfig,
-  presetUno,
   presetIcons,
   presetTypography,
+  presetUno,
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup
@@ -16,7 +16,7 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        lato: 'Lato'
+        'Nunito Sans': ['Nunito Sans', 'sans-serif']
       }
     }),
     presetTypography()
